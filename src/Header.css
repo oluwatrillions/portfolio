@@ -8,9 +8,21 @@ ul {
   display: flex;
   list-style-type: none;
   justify-content: center;
+  color: aliceblue;
+  font-weight: 100;
 }
 
 li {
   padding-left: 2em;
-  font-size: 2em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.header {
+  height: 3em;
+  background: rgb(26, 25, 25);
+  margin-top: -3.6px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(22, 235, 235);
 }

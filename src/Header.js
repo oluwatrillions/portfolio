@@ -7,10 +7,9 @@ function Header() {
             <header>
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li>Contact Me</li>
+                        <li>ABOUT</li>
+                        <li>PROJECTS</li>
+                        <li>CONTACT ME</li>
                     </ul>
                 </nav>
             </header>

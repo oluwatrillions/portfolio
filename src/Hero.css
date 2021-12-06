@@ -4,8 +4,39 @@
   padding: 0;
 }
 
+.hero {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 img {
   width: 100vw;
-  height: 99.5.6vh;
+  height: 99.7vh;
   position: relative;
+}
+
+h1 {
+  position: absolute;
+  left: 5vw;
+  top: 30vh;
+  color: rgb(197, 197, 193);
+  font-weight: 100;
+}
+
+span {
+  color: rgb(59, 236, 236);
+}
+
+button {
+  position: absolute;
+  top: 39vh;
+  left: 12vw;
+  color: aliceblue;
+  font-weight: 100;
+  border: 1px solid rgb(241, 238, 238);
+  padding: 12px;
+  box-sizing: border-box;
+  background: transparent;
+  font-size: 1.2em;
+  cursor: pointer;
 }

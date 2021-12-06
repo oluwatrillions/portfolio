@@ -4,9 +4,10 @@ import './Hero.css'
 
 function Hero() {
     return (
-        <div>
+        <div className='hero'>
             <img src={images} alt='' />
-            <h1>Hello, I'm Ajose Michael Oluwatobi</h1>
+            <h1>Hello, I'm <span>Ajose Michael Oluwatobi</span>. <br /> I am a Frontend Web Developer.</h1>
+            <button>View my work</button>
         </div>
     )
 }
