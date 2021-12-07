@@ -5,11 +5,17 @@
 }
 
 .hero {
-  padding-bottom: 0;
-  margin-bottom: 0;
+  background-image: url(./images/backg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 95.46vh;
 }
 
-img {
+.heroImg {
   width: 100vw;
   height: 99.7vh;
   position: relative;
@@ -17,7 +23,7 @@ img {
 
 h1 {
   position: absolute;
-  left: 5vw;
+  left: 25vw;
   top: 30vh;
   color: rgb(197, 197, 193);
   font-weight: 100;
@@ -30,7 +36,7 @@ span {
 button {
   position: absolute;
   top: 39vh;
-  left: 12vw;
+  left: 32vw;
   color: aliceblue;
   font-weight: 100;
   border: 1px solid rgb(241, 238, 238);
@@ -39,4 +45,12 @@ button {
   background: transparent;
   font-size: 1.2em;
   cursor: pointer;
+}
+
+.pp {
+  right: 10vw;
+  top: 10vh;
+  position: absolute;
+  width: 380px;
+  height: 400px;
 }

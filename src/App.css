@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.about {
+  background-image: url(./images/nasa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 95.46vh;
+}

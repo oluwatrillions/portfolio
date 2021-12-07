@@ -1,13 +1,14 @@
 import React from 'react'
-import images from './images/backg.jpg'
 import './Hero.css'
+import photo from './images/pp.jfif'
+import {Link} from 'react-router-dom'
 
 function Hero() {
     return (
         <div className='hero'>
-            <img src={images} alt='' />
             <h1>Hello, I'm <span>Ajose Michael Oluwatobi</span>. <br /> I am a Frontend Web Developer.</h1>
-            <button>View my work</button>
+          <Link to='/projects'><button>View my work</button></Link>
+            <img className='pp' src={photo} alt=""/>
         </div>
     )
 }

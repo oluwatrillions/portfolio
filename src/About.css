@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aboutMe {
+  position: absolute;
+  display: block;
+  justify-content: center;
+  width: 50vw;
+}
+
+.about img {
+  position: relative;
+}
+
+p {
+  position: absolute;
+  top: 12vh;
+  left: 15vw;
+  color: aliceblue;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+span {
+  color: rgb(59, 236, 236);
+}
