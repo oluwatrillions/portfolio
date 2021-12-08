@@ -4,24 +4,23 @@
   box-sizing: border-box;
 }
 
-.aboutMe {
-  position: absolute;
-  display: block;
-  justify-content: center;
-  width: 50vw;
-}
-
-.about img {
-  position: relative;
+.about {
+  background-image: url(./images/nasa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 95.46vh;
 }
 
 p {
-  position: absolute;
-  top: 12vh;
-  left: 15vw;
   color: aliceblue;
   line-height: 2em;
   font-size: 1.2em;
+  padding-top: 10vh;
+  padding-left: 15vw;
 }
 
 span {

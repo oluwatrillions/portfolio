@@ -11,7 +11,7 @@ function Header() {
                         <Link to="/"><li>HOME</li></Link>
                        <Link to="/about"> <li>ABOUT</li></Link>
                         <Link to="/projects"><li>PROJECTS</li></Link>
-                        <li>CONTACT ME</li>
+                        <Link to='/contact'><li>CONTACT ME</li></Link>
                     </ul>
                 </nav>
             </header>

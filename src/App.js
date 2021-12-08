@@ -4,6 +4,7 @@ import Header from './Header';
 import About from './About'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './Projects';
+import Contact from './Contact'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route path="/projects">
         <Projects/>
+          </Route>
+           <Route path="/contact">
+        <Contact/>
           </Route>
           <Route path="/">
           <Hero />

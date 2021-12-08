@@ -1,0 +1,50 @@
+.contact {
+  background-image: url(./images/cont.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 95.46vh;
+}
+
+.medium {
+  padding-top: 5vh;
+  padding-left: 15vw;
+}
+
+.media {
+  display: flex;
+}
+
+.media img {
+  width: 70px;
+  height: 70px;
+  opacity: 0.9;
+}
+
+.media a {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-left: 30px;
+  color: rgb(59, 236, 236);
+}
+
+.email {
+  display: flex;
+}
+
+.email img {
+  width: 70px;
+  height: 70px;
+}
+
+.email h4 {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-left: 30px;
+  color: rgb(59, 236, 236);
+  font-size: 1.5em;
+  font-weight: 100;
+}
