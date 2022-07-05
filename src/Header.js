@@ -1,8 +1,12 @@
-import React from 'react'
+import React {useState} from 'react'
 import './Header.css'
 import {Link} from 'react-router-dom'
 
 function Header() {
+    const Toggle = () => {
+    const [style, setStyle]=('.')
+}
+
     return (
         <div className='header'>
             <header>

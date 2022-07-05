@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import photo from './images/pp.jfif'
+import photo from './images/pp.jpeg'
 import {Link} from 'react-router-dom'
 
 function Hero() {
