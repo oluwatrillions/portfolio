@@ -11,24 +11,19 @@
   background-position: center center fixed;
   height: 100vh;
   width: 100vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: 30vw 30vw;
+  gap: 2em;
   justify-content: center;
   align-items: center;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 30vw 30vw;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
-  gap: 2em;
-}
-
-.grid div {
   height: 40vh;
-  text-align: center;
-  color: black;
-  background: aliceblue;
-  cursor: pointer;
+  color: aliceblue;
+  background: green;
 }

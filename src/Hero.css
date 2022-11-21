@@ -28,6 +28,54 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent;
+}
+
+.pages:hover {
+    background: rgb(53, 47, 47);
+}
+
+.orange {
+    width: 50vw;
+    height: 80vh;
+    background: transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 5px 15px blue; */
+}
+
+.orange:hover {
+    background: rgb(99, 69, 99);
+}
+
+.purple {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 60vh;
+    background: transparent;
+}
+
+.purple:hover {
+    background: rgb(132, 158, 79);
+}
+
+.green {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+    background: transparent;
+}
+
+.green:hover {
+    background: rgb(42, 71, 78);
 }
 
 h1 {
@@ -54,18 +102,16 @@ button {
 ul {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 2em;
+    grid-gap: 3em;
     list-style-type: none;
     justify-content: center;
     font-weight: 100;
-
+    margin-top: 1.5em;
 }
 
 li {
     font-size: 1.5em;
     cursor: pointer;
-    width: 20vw;
-    height: 20vw;
     border: transparent;
     display: flex;
     justify-content: center;
