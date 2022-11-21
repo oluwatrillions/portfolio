@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
     return (
         <div className='contact'>
-            <p>I am based in <span>Lagos, Nigeria</span>. If you have any questions to ask<br />
+            <p>I am based in <span>Lagos, Nigeria, and open to relocation</span>. If you have any questions to ask<br />
                 or would like to work with me, I am reachable through any of<br />
                 the below medium:</p>
             <div className='medium'>

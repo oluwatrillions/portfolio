@@ -1,29 +1,31 @@
 import './App.css'
 import Hero from './Hero';
-import Header from './Header';
 import About from './About'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './Projects';
 import Contact from './Contact'
+import Blog from './Blog'
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
         <Switch>
           
           <Route path="/about">
-        <About/>
+            <About/>
           </Route>
           <Route path="/projects">
-        <Projects/>
+            <Projects/>
           </Route>
-           <Route path="/contact">
-        <Contact/>
+          <Route path="/contact">
+            <Contact/>
+          </Route>
+          <Route path="/blog">
+            <Blog/>
           </Route>
           <Route path="/">
-          <Hero />
+            <Hero />
           </Route>
           
         </Switch>

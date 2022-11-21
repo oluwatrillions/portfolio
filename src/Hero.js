@@ -6,9 +6,19 @@ import {Link} from 'react-router-dom'
 function Hero() {
     return (
         <div className='hero'>
-            <h1>Hello, I'm <span>Ajose Michael Oluwatobi</span>. <br /> I am a Frontend Web Developer.</h1>
-          <Link to='/projects'><button>View my work</button></Link>
-            <img className='pp' src={photo} alt=""/>
+            <div className='intro'>
+                <h1>Hello, I'm <span>Ajose Michael Oluwatobi</span>. <br /> I am a Frontend Web Developer.</h1>
+            </div>
+            <div className='pages'>
+                <nav>
+                    <ul>
+                        <Link to="/about"> <li><button>about</button></li></Link>
+                        <Link to="/projects"><li><button>view my work</button></li></Link>
+                        <Link to='/contact'><li><button>contact me</button></li></Link>
+                        <Link to="/blog"><li><button>blog</button></li></Link>
+                    </ul>
+                </nav>
+            </div>
         </div>
     )
 }
