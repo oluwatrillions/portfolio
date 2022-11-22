@@ -7,7 +7,7 @@ function Hero() {
     return (
         <div className='hero'>
             <div className='intro'>
-                <h1>Hello, I'm <span>Ajose Michael Oluwatobi</span>. <br /> I am a Frontend Web Developer.</h1>
+                <h1>Hello, I'm <span className='my-name'>Ajose Michael Oluwatobi</span>. <br /> I am a FullStack Web Developer.</h1>
             </div>
             <div className='pages'>
                 <div className='orange'>

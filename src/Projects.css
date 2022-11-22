@@ -12,10 +12,11 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: 30vw 30vw;
+  grid-template-columns: 40vw 40vw;
   gap: 2em;
   justify-content: center;
   align-items: center;
+  opacity: 1;
 }
 
 .grid {
@@ -23,7 +24,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
   color: aliceblue;
-  background: green;
+  background: transparent;
+  cursor: pointer;
+  gap: 2em;
+}
+
+.grid img {
+    width: 30vw;
+    height: 40vh;
+    transition: width 2s, height 2s;
+}
+
+.grid img:hover {
+    width: 35vw;
+    height: 45vh;
 }

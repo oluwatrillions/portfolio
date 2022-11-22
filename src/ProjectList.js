@@ -2,17 +2,12 @@ const Project = [
     {
         id: 1,
         name: 'Calculator',
-        image: ''
+        image: require("./images/calculator.gif").default
     },
     {
         id: 2,
         name: 'Quiz App',
-        image: ''
-    },
-    {
-        id: 3,
-        name: 'Landing Page',
-        image: 'https://www.google.com'
+        image: require('./images/quiz-app.gif').default
     }
 ]
 

@@ -9,20 +9,62 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center fixed;
-  margin: 0;
-  padding: 0;
   width: 100vw;
-  height: 95.4vh;
-}
-
-p {
-  color: aliceblue;
-  line-height: 2em;
-  font-size: 1.2em;
-  padding-top: 10vh;
-  padding-left: 15vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
 
 span {
   color: rgb(59, 236, 236);
+  font-size: 1.5em;
+}
+
+p {
+    color: aliceblue;
+    line-height: 1.8em;
+    font-size: 1.5em;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section h3 {
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+main img {
+    width: 18vw;
+    height: 20vh;
+    border-radius: 5em;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+}
+
+main img:hover {
+    width: 20vw;
+    height: 23vh;
 }
