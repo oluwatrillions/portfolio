@@ -8,6 +8,11 @@ const Project = [
         id: 2,
         name: 'Quiz App',
         image: require('./images/quiz-app.gif').default
+    }, 
+    {
+        id: 3,
+        name: 'Landing Page',
+        image: require('./images/landing page.gif').default
     }
 ]
 
