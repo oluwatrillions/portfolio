@@ -13,7 +13,6 @@
   width: 100vw;
   display: grid;
   grid-template-columns: 40vw 40vw;
-  gap: 2em;
   justify-content: center;
   align-items: center;
   opacity: 1;
@@ -27,16 +26,21 @@
   color: aliceblue;
   background: transparent;
   cursor: pointer;
-  gap: 2em;
+  gap: 0.5em;
 }
 
 .grid img {
     width: 30vw;
-    height: 40vh;
+    height: 35vh;
+    border-radius: 0.5em;
     transition: width 2s, height 2s;
 }
 
 .grid img:hover {
     width: 35vw;
     height: 45vh;
+}
+
+h3 {
+    font-weight: 100;
 }
