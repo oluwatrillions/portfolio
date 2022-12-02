@@ -29,13 +29,26 @@
 }
 
 .left-side {
-    background-color: antiquewhite !important;
+    background-color: antiquewhite;
+    border-radius: 1em;
 }
 
 .blog-page {
-    background-color: blue;
+    background-color: rgb(227, 227, 233);
+    border-radius: 1em;
 }
 
 .right-side {
     background-color: blueviolet;
+    border-radius: 1em;
+}
+
+.topic {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.main {
+    display: block;
 }

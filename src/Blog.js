@@ -13,7 +13,13 @@ const Blog = () => {
                   
               </div>
               <section className='blog-page'>
-                  
+                  <main>
+                      <div className='topic'>
+                          <h1>Topic</h1>
+                          <h4>Date</h4>
+                      </div>
+                      <h3>Discuss</h3>
+                  </main>
               </section>
               <div className='right-side'>
                   
