@@ -1,4 +1,5 @@
 import React from 'react'
+import Bloglist from './Bloglist'
 import './Blog.css'
 
 
@@ -13,13 +14,17 @@ const Blog = () => {
                   
               </div>
               <section className='blog-page'>
-                  <main>
-                      <div className='topic'>
-                          <h1>Topic</h1>
-                          <h4>Date</h4>
+                     <Bloglist />
+                  <div className='response-tab'>
+                      <div>
+                          <h4>comments</h4>
+                          <img src='' alt=''/>
                       </div>
-                      <h3>Discuss</h3>
-                  </main>
+                      <div>
+                          <h4>likes</h4>
+                          <img src='' alt=''/>
+                      </div>
+                  </div>
               </section>
               <div className='right-side'>
                   

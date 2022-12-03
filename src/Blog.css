@@ -43,12 +43,27 @@
     border-radius: 1em;
 }
 
-.topic {
+.topical {
     display: flex;
     justify-content: flex-start;
     gap: 2em;
+    margin-left: 2em;
 }
 
-.main {
-    display: block;
+.topical h1 {
+    color: black;
+}
+
+.topical h4 {
+    padding-top: .3em;
+}
+
+.blog-page h3 {
+    margin-left: 2em;
+}
+
+.response-tab {
+    display: flex;
+    margin-left: 2em;
+    gap: 2em;
 }
