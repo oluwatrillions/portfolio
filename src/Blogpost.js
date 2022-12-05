@@ -1,6 +1,6 @@
 import React from 'react'
-import Bloglist from './src/Bloglist'
-import blogs from './BlogpostData
+import Bloglist from './Bloglist'
+import blogs from './BlogpostData'
 
 const Blogpost = () => {
   return (

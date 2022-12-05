@@ -1,0 +1,29 @@
+*, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blogs-div {
+    width: 60vw;
+}
+
+.blogs-div img {
+    width: 30vw;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    margin: 1em;
+}
+
+.blogs-div h3 {
+    margin: 0;
+    padding-left: 1em;
+}
+
+.blogs-div h6 {
+    padding-left: 1em;
+    font-size: 1em;
+    font-weight: 100;
+}
