@@ -12,7 +12,7 @@ const Project = [
     {
         id: 3,
         name: 'Landing Page',
-        image: require('./images/landing page.gif')
+        image: require('./images/landing page.gif').default
     }
 ]
 
