@@ -4,7 +4,7 @@ import blogs from './BlogpostData'
 
 const Blogpost = () => {
   return (
-    <div><Bloglist blogs={blogs} /></div>
+      <div><Bloglist blogs={blogs} /></div>
   )
 }
 

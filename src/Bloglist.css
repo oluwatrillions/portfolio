@@ -18,12 +18,62 @@
 }
 
 .blogs-div h3 {
-    margin: 0;
-    padding-left: 1em;
+    margin-left: 1em !important;
+    margin-bottom: 0.5em;
 }
 
 .blogs-div h6 {
     padding-left: 1em;
     font-size: 1em;
     font-weight: 100;
+}
+
+.response-tab {
+    width: 30vw;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(204, 203, 203);
+    align-items: center;
+    margin: 0.5em 1em !important;
+    padding: 0 0.5em;
+    border-radius: 0.3em;
+}
+
+.comment-section {
+    width: 6.7vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 0;
+}
+
+.comment-section h6 {
+    font-size: 1em;
+    font-weight: 100;
+    position: absolute;
+    right: -0.2em;
+    top: -0.7em;
+}
+
+.likes-section {
+    width: 3vw;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    gap: 0.2em;
+}
+
+.likes-section h6 {
+    font-size: 1em;
+    font-weight: 100;
+    position: absolute;
+    right: 0em;
+    top: -0.7em;
+}
+
+.comment {
+    width: 7vw;
+    display: flex;
+    justify-content: flex-start;
 }
