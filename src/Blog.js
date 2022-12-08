@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Blogpost from './Blogpost'
 import './Blog.css'
 import { FaComment } from "react-icons/fa";
@@ -8,7 +8,6 @@ import { FaPlus } from "react-icons/fa";
 
 const Blog = () => {
 
-    const [blogCount, setBlogCount] = useState(0)
     
   return (
       <div className='blog-container'>
