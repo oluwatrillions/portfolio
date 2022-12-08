@@ -103,9 +103,9 @@ button {
   text-transform: capitalize;
 }
 
-ul {
-    display: grid;
-    grid-template-columns: auto auto;
+nav ul {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
     grid-gap: 3em;
     list-style-type: none;
     justify-content: center;

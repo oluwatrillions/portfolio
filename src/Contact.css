@@ -11,47 +11,125 @@
   background-position: center center fixed;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 3em 4em;
+  display: grid;
+  grid-template-columns: 35vw 50vw;
+  gap: 2em;
+  justify-content: center;
 }
 
-.medium {
-    margin-top: 4em;
+.contact-sec {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
 }
 
-.media {
-  display: flex;
+.form-section {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 2em 0;
 }
 
-.media img {
-  width: 50px;
-  height: 50px;
-  opacity: 0.9;
+.nav-links ul {
+    display: flex !important;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
-.media a {
-  font-size: 1.5em;
-  padding-top: 10px;
-  padding-left: 30px;
-  color: rgb(59, 236, 236);
+ul h4 {
+    font-size: 0.7em;
 }
 
-.email {
-  display: flex;
+.form {
+    width: 50vw;
+    height: 60vh;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
 }
 
-.email img {
-  width: 50px;
-  height: 50px;
+form {
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+    justify-content: center;
+    margin: 1em auto;
+    color: rgb(255, 255, 255);
 }
 
-.email h4 {
-  font-size: 1.5em;
-  padding-top: 10px;
-  padding-left: 30px;
-  color: rgb(59, 236, 236);
-  font-size: 1.5em;
-  font-weight: 100;
+input {
+    height: 3em;
+    background-color: rgb(196, 196, 194);
+    outline: none;
+    border: none;
 }
+
+.name-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.name-section .name-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.email-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.email-sec input {
+    width: 20vw;
+}
+
+.msg-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.msg-sec textarea {
+    width: 20vw;
+    height: 15vh;
+    border: none;
+    outline: none;
+    background-color: rgb(196, 196, 194);
+}
+
+button {
+    width: 10vw;
+    margin: 0 auto;
+}
+
+.nav-links {
+    width: 35vw;
+    height: 4em;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+}
+
+
+
