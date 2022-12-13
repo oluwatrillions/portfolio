@@ -13,6 +13,11 @@ const Project = [
         id: 3,
         name: 'Landing Page',
         image: require('./images/landing page.gif').default
+    },
+    {
+        id: 4,
+        name: 'Movie App',
+        image: require('./images/movie-app.gif').default
     }
 ]
 
